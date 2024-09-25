@@ -1,0 +1,48 @@
+hi anh, cảm ơn anh đã sharing kiến thức với mọi người.
+cho em hỏi thông số UV_THREADPOOL_SIZE này trong thực tế chạy production thì có 
+nên set cao hơn số core cpus mà OS có ko ạ? 
+(Với điều kiện là set 1 con số phù hợp để đảm bảo CPU ko bị quá tải vì tăng 1 con số quá lớn ạ)
+
+
+@anonystick
+1 năm trước
+Không em. Set 70% nha em
+-----------------------------------------------------------------------------------------------
+
+@lytaitruong2481
+2 năm trước
+Hi anh
+
+Em có thử dùng nó trong việc resize image thông qua library 'sharp' để convert image qua định dạng 'webp'
+Em có điều chỉnh poolSize từ 1 cho đến 16 trên máy Mac M1 của em thì thấy rằng
+
+Nếu chạy concurrency thì performance có tăng
+Nếu chạy upload từng request 1 thì có tăng poolSize thì nó cũng không improve performance ạ
+
+Anh cho em xin thêm ý kiến ạ Thank
+
+
+Tips Javascript
+·
+
+1 phản hồi
+
+@anonystick
+2 năm trước
+Em hiểu sai về poolSize rồi. Nhưng không sao, về upload thì hiện nay người ta hiện nay phải đúng kỹ thuật. 
+Ở client thì phải chia nhỏ file.
+Dưới server merge file. Chia độ phân giải các kiểu, em nên dùng S3 or cloudinary nha em.
+
+--------------------------------------------------------------------------------------------------------
+
+@cobebandiem5844
+2 năm trước
+Video nào hướng dẫn gửi reuqest ab -n 200 -c 100 vậy a
+
+
+Tips Javascript
+
+@anonystick
+2 năm trước
+Đây em video về bài toán còn 1 sản phẩm nhưng nhiều người cũng mua
+https://youtu.be/qxRtMizGvWE

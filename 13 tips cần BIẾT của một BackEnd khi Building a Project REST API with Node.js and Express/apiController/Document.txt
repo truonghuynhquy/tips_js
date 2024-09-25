@@ -1,0 +1,22 @@
+13 tips cần BIẾT của một BackEnd khi Building a Project REST API with Node.js and Express
+1. Sign (Chữ ký)
+2. IP White List ( Danh sách trống các địa chỉ IP)
+3. Encrypt ( Mã hóa dữ liệu cần thiêt)
+4. Validate REST request ( xác minh tham số đầu vào)
+5. Rate limits Rest API (Giới hạn requests)
+6. Return responses JSON
+7. Return errors
+8. Logs requests
+9. Limites records
+10. Check QPS ( Query per second)
+https://youtu.be/dpDGXbe_LeE?si=5nQcbf-jzdK7Ea6G
+(Redis vs MySQL Để check QPS (query per second) tôi phải đến năm thứ 4 lập trình mới biết về sysbench)
+https://youtu.be/uZhe6O_JXM8?si=cyuipmOgAxN8TK2e
+(Hệ thống BackEnd tắc nghẽn ở giờ CAO ĐIỂM Tôi dựa vào công thức tính QPS và bài toán định luật 80/20)
+11. Sensitivity data (Data nhảy vào)
+12 async request
+https://youtube.com/playlist?list=PLw0w5s5b9NK4V21Tv0_OTHxvwDFRihC0R&si=iiNycVSRegKTyrjQ
+(RabbitMQ)
+13. Xem lại video 9 nguyên tắc để hiểu cách sử dụng METHODS
+
+https://youtu.be/aXBZjId5XEE?si=yYx0uXYatYNZi5wr (Tips Javascript)
